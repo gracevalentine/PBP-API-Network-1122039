@@ -1,0 +1,9 @@
+db_name = market
+
+CREATE TABLE Products (
+    product_id INT PRIMARY KEY AUTO_INCREMENT,
+    product_name VARCHAR(255) NOT NULL,
+    category VARCHAR(50),
+    price DECIMAL(10, 2),
+    quantity INT
+);
